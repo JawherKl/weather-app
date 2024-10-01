@@ -1,5 +1,4 @@
 # Weather App
-
 A simple weather application that fetches weather data based on the user's location using the OpenWeatherMap API and the Geolocation API. The app provides current weather details and a 5-day forecast with an improved and modern interface.
 
 ## Features
@@ -18,7 +17,6 @@ A simple weather application that fetches weather data based on the user's locat
 - Responsive and modern design
 
 ## Technologies Used
-
 - HTML5
 - CSS3
 - JavaScript (ES6+)
