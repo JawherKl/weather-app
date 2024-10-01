@@ -1,0 +1,70 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+.weather-container {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    width: 650px;
+    transition: background-color 0.3s ease;
+}
+
+h1 {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.weather-info {
+    margin: 10px 0;
+}
+
+#icon {
+    width: 100px;
+    height: 100px;
+}
+
+#location, #weather, #temperature, #feels_like, #humidity, #pressure, #wind, #visibility {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+#forecast-container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.forecast-item {
+    background-color: #f7f9fc;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.forecast-date {
+    font-size: 14px;
+    color: #777;
+}
+
+.forecast-temp {
+    font-size: 16px;
+    color: #333;
+}
+
+@media screen and (max-width: 400px) {
+    .weather-container {
+        width: 90%;
+    }
+}
