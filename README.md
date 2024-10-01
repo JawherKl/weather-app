@@ -3,7 +3,6 @@
 A simple weather application that fetches weather data based on the user's location using the OpenWeatherMap API and the Geolocation API. The app provides current weather details and a 5-day forecast with an improved and modern interface.
 
 ## Features
-
 - Fetches weather data using OpenWeatherMap API
 - Uses geolocation to get current weather based on user's location
 - Displays current weather details such as:
