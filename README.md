@@ -64,11 +64,12 @@ A simple weather application that fetches weather data based on the user's locat
 - The app also shows a 5-day weather forecast with temperatures for each day.
 
 ## Project Structure
+``` bash
 weather-app/
 ├── index.html
 ├── style.css
 └── app.js
-
+```
 
 ### Example Output
 
